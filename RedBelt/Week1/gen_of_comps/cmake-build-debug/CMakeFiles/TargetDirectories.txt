@@ -1,0 +1,3 @@
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/cmake-build-debug/CMakeFiles/gen_of_comps.dir

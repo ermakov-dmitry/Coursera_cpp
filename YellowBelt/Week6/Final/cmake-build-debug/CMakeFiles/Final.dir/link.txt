@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Final.dir/main.cpp.o CMakeFiles/Final.dir/token.cpp.o CMakeFiles/Final.dir/condition_parser.cpp.o CMakeFiles/Final.dir/condition_parser_test.cpp.o CMakeFiles/Final.dir/date.cpp.o CMakeFiles/Final.dir/database.cpp.o CMakeFiles/Final.dir/node.cpp.o CMakeFiles/Final.dir/test_db.cpp.o CMakeFiles/Final.dir/overloaded_operators.cpp.o  -o Final 

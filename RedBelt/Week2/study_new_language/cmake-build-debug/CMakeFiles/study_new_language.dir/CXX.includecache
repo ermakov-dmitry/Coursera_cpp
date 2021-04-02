@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CLionProjects/RedBelt/Week2/study_new_language/main.cpp
+algorithm
+-
+string
+-
+vector
+-
+iostream
+-
+sstream
+-
+profile.h
+/home/dmitry/CLionProjects/RedBelt/Week2/study_new_language/profile.h
+
+/home/dmitry/CLionProjects/RedBelt/Week2/study_new_language/profile.h
+chrono
+-
+iostream
+-
+string
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/gen_of_comps.dir/main.cpp.o  -o gen_of_comps 

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/airline_ticket.h
+string
+-
+vector
+-
+iostream
+-
+
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/main.cpp
+airline_ticket.h
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/airline_ticket.h
+test_runner.h
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/test_runner.h
+algorithm
+-
+numeric
+-
+
+/home/dmitry/CLionProjects/RedBelt/Week1/gen_of_comps/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

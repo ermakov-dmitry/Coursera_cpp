@@ -1,0 +1,3 @@
+/home/dmitry/CLionProjects/YellowBelt/Week6/Final/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitry/CLionProjects/YellowBelt/Week6/Final/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitry/CLionProjects/YellowBelt/Week6/Final/cmake-build-debug/CMakeFiles/Final.dir

@@ -1,0 +1,3 @@
+/home/dmitry/CLionProjects/RedBelt/Week2/ebook/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitry/CLionProjects/RedBelt/Week2/ebook/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitry/CLionProjects/RedBelt/Week2/ebook/cmake-build-debug/CMakeFiles/ebook.dir

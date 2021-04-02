@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/uniq_macros.dir/main.cpp.o  -o uniq_macros 

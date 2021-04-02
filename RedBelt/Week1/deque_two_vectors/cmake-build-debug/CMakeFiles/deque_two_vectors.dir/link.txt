@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/deque_two_vectors.dir/main.cpp.o  -o deque_two_vectors 
