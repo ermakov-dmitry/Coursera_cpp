@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dmitry/CLionProjects/RedBelt/Week2/hotels/main.cpp" "/home/dmitry/CLionProjects/RedBelt/Week2/hotels/cmake-build-debug/CMakeFiles/hotels.dir/main.cpp.o"
+  "/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week2/hotels/main.cpp" "/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week2/hotels/cmake-build-debug/CMakeFiles/hotels.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

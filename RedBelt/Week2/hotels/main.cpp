@@ -1,13 +1,16 @@
 #include <iostream>
-#include <deque>
-#include <utility>
+#include <queue>
+#include <tuple>
+#include <map>
+#include <cstdint>
 #include "test_runner.h"
 
 using namespace std;
 
 struct Hotel {
-    deque<pair<uint32_t, int64_t>> clients;
-    deque<pair<uint16_t, int64_t>> room_count;
+    map<uint32_t, size_t> clients;
+    uint32_t rooms;
+
 };
 
 class HotelManager {
@@ -15,66 +18,50 @@ public:
     void book(const int64_t& time,
               const string& hotel_name,
               const uint32_t& client_id,
-              const uint16_t& room_count) {
+              const uint32_t& room_count) {
         current_time_ = time;
-        hotels[hotel_name].clients.emplace_back(client_id, time);
-        hotels[hotel_name].room_count.emplace_back(room_count, time);
-        // UpdateDay();
+        statistics.push(tie(time, hotel_name, client_id, room_count));
+        auto& hotel = hotels[hotel_name];
+        hotel.clients[client_id]++;
+        hotel.rooms += room_count;
+        UpdateDay();
+
     }
-    size_t clients(const string& hotel_name) {
-        if (hotels.find(hotel_name) == hotels.end()) {
+    [[nodiscard]] size_t clients(const string& hotel_name) const {
+        if (hotels.count(hotel_name) == 0) {
             return 0u;
         } else {
-            UpdateDay(hotel_name, "clients");
-            auto& clients_base = hotels.at(hotel_name).clients;
-            set<uint32_t> unique_clients;
-            for (const auto& it : clients_base) {
-                unique_clients.insert(it.first);
-            }
-            return unique_clients.size();
+            return hotels.at(hotel_name).clients.size();
         }
     }
-    size_t rooms(const string& hotel_name) {
-        if (hotels.find(hotel_name) == hotels.end()) {
+    [[nodiscard]] size_t rooms(const string& hotel_name) const {
+        if (hotels.count(hotel_name) == 0) {
             return 0u;
         } else {
-            UpdateDay(hotel_name, "rooms");
-            auto& rooms_base = hotels.at(hotel_name).room_count;
-            size_t rooms_size = 0u;
-            for (const auto& rooms : rooms_base) {
-                rooms_size += rooms.first;
-            }
-            return rooms_size;
+            return hotels.at(hotel_name).rooms;
         }
     }
 
 private:
     static const int64_t day = 86400;
-    int64_t current_time_;
+    int64_t current_time_{};
     map<string, Hotel> hotels;
-
-    void UpdateDay(const string& hotel_name, const string& type_) {
-        if (type_ == "clients") {
-            auto& clients_base = hotels.at(hotel_name).clients;
-            while (current_time_ - clients_base.front().second >= day) {
-                clients_base.pop_front();
-            }
-        } else if (type_ == "rooms") {
-            auto& rooms_base = hotels.at(hotel_name).room_count;
-            while (current_time_ - rooms_base.front().second >= day) {
-                rooms_base.pop_front();
-            }
-        }
-    }
+    queue<tuple<int64_t, string, uint32_t, uint32_t>> statistics;
 
     void UpdateDay() {
-        for (auto it = hotels.begin(); it != hotels.end(); it++) {
-            auto& clients_base = it->second.clients;
-            auto& rooms_base = it->second.room_count;
-            while (current_time_ - clients_base.front().second >= day) {
-                clients_base.pop_front();
-                rooms_base.pop_front();
+        while (!statistics.empty()) {
+            if (current_time_ - get<0>(statistics.front()) < day) {
+                break;
             }
+            auto& hotel_name = get<1>(statistics.front());
+            auto& client = get<2>(statistics.front());
+            auto& room_count = get<3>(statistics.front());
+            auto& hotel = hotels.at(hotel_name);
+            hotel.rooms -= room_count;
+            if (--hotel.clients.at(client) == 0u) {
+                hotel.clients.erase(client);
+            }
+            statistics.pop();
         }
     }
 };

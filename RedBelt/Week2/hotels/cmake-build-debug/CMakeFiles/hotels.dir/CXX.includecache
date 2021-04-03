@@ -6,17 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/home/dmitry/CLionProjects/RedBelt/Week2/hotels/main.cpp
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week2/hotels/main.cpp
 iostream
 -
-deque
+queue
 -
-utility
+tuple
+-
+map
+-
+cstdint
 -
 test_runner.h
-/home/dmitry/CLionProjects/RedBelt/Week2/hotels/test_runner.h
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week2/hotels/test_runner.h
 
-/home/dmitry/CLionProjects/RedBelt/Week2/hotels/test_runner.h
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week2/hotels/test_runner.h
 sstream
 -
 stdexcept
