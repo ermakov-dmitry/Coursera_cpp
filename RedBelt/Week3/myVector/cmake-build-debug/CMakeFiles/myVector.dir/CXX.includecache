@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/myVector/main.cpp
+simple_vector.h
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/myVector/simple_vector.h
+test_runner.h
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/myVector/test_runner.h
+algorithm
+-
+iostream
+-
+vector
+-
+string
+-
+
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/myVector/simple_vector.h
+cstdlib
+-
+
+/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/myVector/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/hotels.dir/main.cpp.o  -o hotels 
+/usr/bin/c++ -g CMakeFiles/hotels.dir/main.cpp.o -o hotels 

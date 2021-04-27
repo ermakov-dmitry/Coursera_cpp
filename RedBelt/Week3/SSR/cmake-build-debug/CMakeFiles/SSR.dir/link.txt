@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SSR.dir/main.cpp.o -o SSR 
