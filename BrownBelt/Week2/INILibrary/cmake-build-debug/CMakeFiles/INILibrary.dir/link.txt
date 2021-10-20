@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/INILibrary.dir/main.cpp.o CMakeFiles/INILibrary.dir/ini.cpp.o -o INILibrary 

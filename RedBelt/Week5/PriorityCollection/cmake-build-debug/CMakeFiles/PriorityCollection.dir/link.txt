@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/PriorityCollection.dir/main.cpp.o -o PriorityCollection 

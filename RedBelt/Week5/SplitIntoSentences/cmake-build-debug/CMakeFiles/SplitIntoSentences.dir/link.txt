@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SplitIntoSentences.dir/main.cpp.o -o SplitIntoSentences 

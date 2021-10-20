@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/INILibrary/ini.cpp
+ini.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/INILibrary/ini.h
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/INILibrary/ini.h
+string
+-
+unordered_map
+-
+map
+-
+algorithm
+-
+sstream
+-
+

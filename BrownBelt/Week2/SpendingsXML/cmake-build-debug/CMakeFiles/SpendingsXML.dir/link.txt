@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SpendingsXML.dir/main.cpp.o CMakeFiles/SpendingsXML.dir/xml.cpp.o -o SpendingsXML 

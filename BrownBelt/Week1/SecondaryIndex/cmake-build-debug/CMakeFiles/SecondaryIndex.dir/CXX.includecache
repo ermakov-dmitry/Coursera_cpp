@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week1/SecondaryIndex/main.cpp
+test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week1/SecondaryIndex/test_runner.h
+iostream
+-
+map
+-
+string
+-
+list
+-
+string_view
+-
+unordered_map
+-
+unordered_set
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week1/SecondaryIndex/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+unordered_map
+-
+set
+-
+string
+-
+vector
+-
+

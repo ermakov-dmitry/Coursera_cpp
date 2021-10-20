@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/StatWeb.dir/main.cpp.o CMakeFiles/StatWeb.dir/stats.cpp.o -o StatWeb 

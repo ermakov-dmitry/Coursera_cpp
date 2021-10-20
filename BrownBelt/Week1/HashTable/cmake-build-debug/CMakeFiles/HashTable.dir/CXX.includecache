@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week1/HashTable/main.cpp
+test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week1/HashTable/test_runner.h
+forward_list
+-
+iterator
+-
+vector
+-
+algorithm
+-
+unordered_map
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week1/HashTable/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+unordered_map
+-
+set
+-
+string
+-
+vector
+-
+

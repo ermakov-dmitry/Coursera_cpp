@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Refactoring.dir/main.cpp.o CMakeFiles/Refactoring.dir/json.cpp.o CMakeFiles/Refactoring.dir/xml.cpp.o -o Refactoring 

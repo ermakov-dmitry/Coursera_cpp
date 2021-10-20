@@ -1,3 +1,3 @@
-/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/CMakeFiles/SSR.dir
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/CMakeFiles/SSR.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/GroupStrings.dir/main.cpp.o -o GroupStrings 

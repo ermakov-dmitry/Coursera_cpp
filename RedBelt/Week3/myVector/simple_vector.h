@@ -1,6 +1,7 @@
 #pragma once
 
 #include <cstdlib>
+#include <algorithm>
 
 // Реализуйте шаблон SimpleVector
 template <typename T>
@@ -8,32 +9,34 @@ class SimpleVector {
 public:
     SimpleVector() {
         elements = nullptr;
-        end_ = nullptr;
         capacity = 0u;
+        size = 0u;
     }
-    explicit SimpleVector(size_t size) {
-        capacity = size;
+    explicit SimpleVector(size_t size_) {
+        capacity = size_;
+        size = size_;
         elements = new T[capacity];
-        end_ = elements + size;
     }
+
     ~SimpleVector() {
         if (elements != nullptr) {
             delete[] elements;
         }
     }
 
+
     T& operator[](size_t index) {
         return elements[index];
     }
 
     T* begin() {return elements;}
-    T* end() {return end_;}
+    T* end() {return elements + size;}
 
     const T* begin() const {return elements;}
-    const T* end() const {return end_;}
+    const T* end() const {return elements + size;}
 
     size_t Size() const {
-        return end_ - elements;
+        return size;
     }
     size_t Capacity() const {
         return capacity;
@@ -41,19 +44,24 @@ public:
     void PushBack(const T& value) {
         if (elements == nullptr) {
             elements = new T[1];
-            end_ = elements + 1;
             *elements = value;
             capacity = 1u;
+            size = 1u;
+        } else if (Capacity() > Size()) {
+            *(elements + size++) = value;
         } else if (Capacity() == Size()) {
-            auto extended_elements = new T[Capacity() * 2];
-
-
+            auto extended = new T[Capacity() * 2];
+            std::copy(elements, elements + size, extended);
+            delete[] elements;
+            elements = extended;
+            *(elements + size++) = value;
+            capacity *= 2;
         }
     }
 
 private:
     // Добавьте поля для хранения данных вектора
     T* elements;
-    T* end_;
     size_t capacity;
+    size_t size;
 };

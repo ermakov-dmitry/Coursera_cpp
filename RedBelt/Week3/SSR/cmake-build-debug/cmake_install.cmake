@@ -1,4 +1,4 @@
-# Install script for directory: /home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR
+# Install script for directory: /home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

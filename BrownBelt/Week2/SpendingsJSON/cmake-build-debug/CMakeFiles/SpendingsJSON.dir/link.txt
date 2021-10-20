@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SpendingsJSON.dir/main.cpp.o CMakeFiles/SpendingsJSON.dir/json.cpp.o -o SpendingsJSON 

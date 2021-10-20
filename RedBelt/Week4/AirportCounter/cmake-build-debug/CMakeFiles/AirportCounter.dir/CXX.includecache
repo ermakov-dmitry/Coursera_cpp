@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week4/AirportCounter/main.cpp
+test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week4/AirportCounter/test_runner.h
+profile.h
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week4/AirportCounter/profile.h
+algorithm
+-
+array
+-
+iostream
+-
+random
+-
+vector
+-
+
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week4/AirportCounter/profile.h
+chrono
+-
+
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week4/AirportCounter/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

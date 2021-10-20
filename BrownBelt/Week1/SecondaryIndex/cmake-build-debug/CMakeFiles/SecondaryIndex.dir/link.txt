@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/SecondaryIndex.dir/main.cpp.o -o SecondaryIndex 

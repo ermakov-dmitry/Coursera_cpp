@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week5/ConcurrentMap/main.cpp
+test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week5/ConcurrentMap/test_runner.h
+profile.h
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week5/ConcurrentMap/profile.h
+algorithm
+-
+future
+-
+map
+-
+vector
+-
+string
+-
+random
+-
+
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week5/ConcurrentMap/profile.h
+chrono
+-
+
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week5/ConcurrentMap/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+set
+-
+string
+-
+vector
+-
+

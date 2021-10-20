@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/DoubleDispatching.dir/main.cpp.o CMakeFiles/DoubleDispatching.dir/geo2d.cpp.o -o DoubleDispatching 

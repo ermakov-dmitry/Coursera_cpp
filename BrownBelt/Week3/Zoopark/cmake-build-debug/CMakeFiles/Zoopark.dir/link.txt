@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Zoopark.dir/main.cpp.o -o Zoopark 

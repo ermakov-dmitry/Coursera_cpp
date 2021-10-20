@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Polynomial/main.cpp
+test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Polynomial/test_runner.h
+profile.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Polynomial/profile.h
+vector
+-
+iostream
+-
+algorithm
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Polynomial/profile.h
+chrono
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Polynomial/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+unordered_map
+-
+set
+-
+string
+-
+vector
+-
+

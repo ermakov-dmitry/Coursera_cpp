@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/main.cpp
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/main.cpp
 test_runner.h
-/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/test_runner.h
 algorithm
 -
 string
@@ -16,7 +16,7 @@ string
 numeric
 -
 
-/home/dmitry/CLionProjects/Coursera_cpp/RedBelt/Week3/SSR/test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/RedBelt/Week3/SSR/test_runner.h
 sstream
 -
 stdexcept

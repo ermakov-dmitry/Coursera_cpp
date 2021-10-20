@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/game_object.h
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/geo2d.h
+cstdint
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/main.cpp
+geo2d.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/geo2d.h
+game_object.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/game_object.h
+test_runner.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/test_runner.h
+vector
+-
+memory
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week2/DoubleDispatching/test_runner.h
+sstream
+-
+stdexcept
+-
+iostream
+-
+map
+-
+unordered_map
+-
+set
+-
+string
+-
+vector
+-
+

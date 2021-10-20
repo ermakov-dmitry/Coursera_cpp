@@ -7,7 +7,7 @@
 #include <string>
 using namespace std;
 
-/*void TestConstruction() {
+void TestConstruction() {
     SimpleVector<int> empty;
     ASSERT_EQUAL(empty.Size(), 0u);
     ASSERT_EQUAL(empty.Capacity(), 0u);
@@ -34,20 +34,11 @@ void TestPushBack() {
     const vector<int> expected = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     ASSERT_EQUAL(v.Size(), expected.size());
     ASSERT(equal(begin(v), end(v), begin(expected)));
-}*/
+}
 
 int main() {
-    /*TestRunner tr;
+    TestRunner tr;
     RUN_TEST(tr, TestConstruction);
-    RUN_TEST(tr, TestPushBack);*/
-    SimpleVector<int> x(4);
-    x[0] = 1;
-    x[1] = 5;
-    x[2] = 3;
-    x[3] = -2;
-    for (size_t i = 0; i < 4; i++) {
-        cout << x[i] << endl;
-    }
-    cout << x.Size();
+    RUN_TEST(tr, TestPushBack);
     return 0;
 }
