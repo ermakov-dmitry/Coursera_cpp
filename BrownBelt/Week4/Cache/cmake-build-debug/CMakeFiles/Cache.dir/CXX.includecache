@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week4/Cache/Common.h
+memory
+-
+string
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week4/Cache/Solution.cpp
+Common.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week4/Cache/Common.h
+vector
+-
+map
+-
+unordered_map
+-
+mutex
+-
+

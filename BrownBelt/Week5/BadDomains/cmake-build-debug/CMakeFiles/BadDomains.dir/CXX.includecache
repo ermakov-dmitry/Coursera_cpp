@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week5/BadDomains/main.cpp
+algorithm
+-
+iostream
+-
+string
+-
+string_view
+-
+vector
+-
+

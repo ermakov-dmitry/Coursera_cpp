@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/BadDomains.dir/main.cpp.o -o BadDomains 

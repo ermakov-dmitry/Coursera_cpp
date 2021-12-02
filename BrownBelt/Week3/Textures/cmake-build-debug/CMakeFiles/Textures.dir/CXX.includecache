@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Textures/Common.h
+memory
+-
+string
+-
+vector
+-
+
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Textures/Solution.cpp
+Common.h
+/home/dmitry/CppWs/Coursera_cpp/BrownBelt/Week3/Textures/Common.h
+
